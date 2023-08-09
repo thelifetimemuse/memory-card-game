@@ -1,0 +1,26 @@
+[
+  {
+    "image": "barnowl.png",
+    "name": "barnowl"
+  },
+  {
+    "image": "blackbird.png",
+    "name": "blackbird"
+  },
+  {
+    "image": "magpie.png",
+    "name": "magpie"
+  },
+  {
+    "image": "songthrush.png",
+    "name": "songthrush"
+  },
+  {
+    "image": "woodpecker.png",
+    "name": "woodpecker"
+  },
+  {
+    "image": "woodpigeon.png",
+    "name": "woodpigeon"
+  }
+]
