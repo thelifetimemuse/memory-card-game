@@ -68,6 +68,9 @@ let matchedPairs = 0;
 function disableCards() {
   firstCard.removeEventListener("click", flipCard);
   secondCard.removeEventListener("click", flipCard);
+//Add matches class for animation
+firstCard.classList.add("matched");
+secondCard.classList.add("matched");
 
   matchedPairs++;
   if (matchedPairs === cards.length / 2) {
