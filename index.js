@@ -2,11 +2,8 @@ const gridContainer = document.querySelector(".grid-container");
 let cards = [];
 let firstCard, secondCard;
 let lockBoard = false;
-let score = 0;
 
-document.querySelector(".score").textContent = score;
-
-fetch("./data/jsonviewer")
+fetch("./data/cards.json")
   .then((res) => res.json())
   .then((data) => {
     cards = [...data, ...data];
@@ -55,8 +52,6 @@ function flipCard() {
   }
 
   secondCard = this;
-  score++;
-  document.querySelector(".score").textContent = score;
   lockBoard = true;
 
   checkForMatch();
@@ -68,10 +63,17 @@ function checkForMatch() {
   isMatch ? disableCards() : unflipCards();
 }
 
+let matchedPairs = 0;
+
 function disableCards() {
   firstCard.removeEventListener("click", flipCard);
   secondCard.removeEventListener("click", flipCard);
 
+  matchedPairs++;
+  if (matchedPairs === cards.length / 2) {
+    //All cards match, show the well done alert
+    alert("Well done! You've macthed all the birds!")
+  }
   resetBoard();
 }
 
@@ -89,11 +91,10 @@ function resetBoard() {
   lockBoard = false;
 }
 
+
 function restart() {
   resetBoard();
   shuffleCards();
-  score = 0;
-  document.querySelector(".score").textContent = score;
   gridContainer.innerHTML = "";
   generateCards();
 }
