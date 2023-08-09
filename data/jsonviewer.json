@@ -1,26 +1,26 @@
 [
   {
-    "image": "barnowl.png",
+    "image": "../assets/barnowl.png",
     "name": "barnowl"
   },
   {
-    "image": "blackbird.png",
+    "image": "../assets/barnowl.png",
     "name": "blackbird"
   },
   {
-    "image": "magpie.png",
+    "image": "../assets/barnowl.png",
     "name": "magpie"
   },
   {
-    "image": "songthrush.png",
+    "image": "../assets/barnowl.png",
     "name": "songthrush"
   },
   {
-    "image": "woodpecker.png",
+    "image": "../assets/barnowl.png",
     "name": "woodpecker"
   },
   {
-    "image": "woodpigeon.png",
+    "image": "../assets/barnowl.png",
     "name": "woodpigeon"
   }
 ]
