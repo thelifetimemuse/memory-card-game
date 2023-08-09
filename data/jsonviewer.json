@@ -4,23 +4,23 @@
     "name": "barnowl"
   },
   {
-    "image": "../assets/barnowl.png",
+    "image": "../assets/blackbird.png",
     "name": "blackbird"
   },
   {
-    "image": "../assets/barnowl.png",
+    "image": "../assets/magpie.png",
     "name": "magpie"
   },
   {
-    "image": "../assets/barnowl.png",
+    "image": "../assets/songthrush.png",
     "name": "songthrush"
   },
   {
-    "image": "../assets/barnowl.png",
+    "image": "../assets/woodpecker.png",
     "name": "woodpecker"
   },
   {
-    "image": "../assets/barnowl.png",
+    "image": "../assets/woodpigeon.png",
     "name": "woodpigeon"
   }
 ]
