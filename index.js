@@ -75,7 +75,7 @@ secondCard.classList.add("matched");
   matchedPairs++;
   if (matchedPairs === cards.length / 2) {
     //All cards match, show the well done alert
-    alert("Well done! You've macthed all the birds!")
+    alert("Well done! You've matched all the birds!")
   }
   resetBoard();
 }
